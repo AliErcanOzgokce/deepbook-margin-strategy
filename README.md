@@ -2,13 +2,13 @@
 
 ## Overview
 
-This repository contains a focused Proof-of-Concept demonstrating composability between SuiLend obligations and DeepBook margin pools.
+This repository contains a focused Proof-of-Concept demonstrating composability between Suilend obligations and DeepBook margin pools.
 
-The objective is to validate architectural feasibility of deploying borrowed liquidity from a SuiLend obligation into DeepBook while preserving protocol isolation.
+The objective is to validate architectural feasibility of deploying borrowed liquidity from a Suilend obligation into DeepBook while preserving protocol isolation.
 
 Importantly:
 
-- The core SuiLend protocol logic is untouched.
+- The core Suilend protocol logic is untouched.
 - No modifications were made to core accounting, health checks, or reserve logic.
 - Integration is implemented strictly as a wrapper layer.
 
@@ -30,9 +30,9 @@ The DeepBook integration acts as an execution layer extension rather than a new 
 
 ## What This Demonstrates
 
-- Borrowing from SuiLend via wrapped obligation cap
+- Borrowing from Suilend via wrapped obligation cap
 - Supplying borrowed liquidity into DeepBook margin pool
-- Withdrawing from DeepBook and repaying SuiLend
+- Withdrawing from DeepBook and repaying Suilend
 - Maintaining version control and ownership safety
 - No direct mutation of protocol-level invariants
 
